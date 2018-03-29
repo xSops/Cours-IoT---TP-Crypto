@@ -11,12 +11,11 @@ while True :
 		print (cryptocompare.get_coin_list(format=True))
 
 		
-		
+
 
 	elif choix == 'x' :
 		break;
 
 	else :
 		currency = cryptocompare.get_price(choix)
-		print (currency)  	
-		
+		print (currency)
